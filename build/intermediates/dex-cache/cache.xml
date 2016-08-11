@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_75bd24fc5159c70e41ccbbbdfc98aaddee368e0a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8e8221123ec9d8f4934c2b9f93c5eb6dfbb5833e">
+        <dex dex="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f80f4080b34efece61de756fd58bcd286c2f02e4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_fe197991f0e5d4421bbd85f01e82d3484f8afb85/classes.dex" />
+    </item>
+    <item
+        jar="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_f055f85b30d7a73f9958f027139def53c541327c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/whetzel/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_266ae61f7247178c6da835733419407b52c823ce/classes.dex" />
+    </item>
+    <item
+        jar="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_b2ae90890e439dbd7a0eb3257602e63863739680/classes.dex" />
+    </item>
+    <item
+        jar="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_7f456b17ba3cdfe9f75df733f15d3fc2e230c527/classes.dex" />
+    </item>
+    <item
+        jar="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_7f20dd2bde29d7d3a0a39f52663315d8200f2ca4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_9084bf1e80a5650995614388bb58a52674a94466/classes.dex" />
+    </item>
+    <item
+        jar="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="cb318cb5b92ecd8328130a776ae44c184dd8635c">
+        <dex dex="/Users/whetzel/git/ud839_Miwok/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d7cfff504ff5c55bb5e9bf43fc07621d2f1566d2/classes.dex" />
+    </item>
+
+</items>
