@@ -6,10 +6,28 @@ package com.example.android.miwok;
 public class Word {
     private String mMiwokTranslation;
     private String mDefaultTranslation;
+    private int mImageResourceId;
 
+    /**
+     * Constructor to display words and images
+     * @param defaultTranslation
+     * @param miwokTranslation
+     */
     public Word(String defaultTranslation, String miwokTranslation) {
         mMiwokTranslation = miwokTranslation;
         mDefaultTranslation = defaultTranslation;
+    }
+
+    /**
+     * Constructor to display words and images
+     * @param defaultTranslation
+     * @param miwokTranslation
+     * @param imageResourceId
+     */
+    public Word(String defaultTranslation, String miwokTranslation, int imageResourceId) {
+        mMiwokTranslation = miwokTranslation;
+        mDefaultTranslation = defaultTranslation;
+        mImageResourceId = imageResourceId;
     }
 
     /**
@@ -24,5 +42,21 @@ public class Word {
      */
     public String getDefaultTranslation() {
         return mDefaultTranslation;
+    }
+
+    /**
+     * Get the image resource Id
+     * @return
+     */
+    public int getImageResourceId() {
+        return mImageResourceId;
+    }
+
+    @Override
+    public String toString() {
+        return "Word{" +
+                "mMiwokTranslation='" + mMiwokTranslation + '\'' +
+                ", mDefaultTranslation='" + mDefaultTranslation + '\'' +
+                '}';
     }
 }
