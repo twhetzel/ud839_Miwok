@@ -4,12 +4,22 @@ package com.example.android.miwok;
  * Created by whetzel on 8/12/16.
  */
 public class Word {
+
+    /** Miwok translation for the word */
     private String mMiwokTranslation;
+
+    /** Default translation for the word */
     private String mDefaultTranslation;
-    private int mImageResourceId;
+
+    /** Image resource ID for the word */
+    private int mImageResourceId = NO_IMAGE_PROVIDED;
+
+    /** Constant value that represents no image was provided for this word */
+    private static final int NO_IMAGE_PROVIDED = -1;
+
 
     /**
-     * Constructor to display words and images
+     * Constructor to create Word object with words only
      * @param defaultTranslation
      * @param miwokTranslation
      */
@@ -19,7 +29,7 @@ public class Word {
     }
 
     /**
-     * Constructor to display words and images
+     * Constructor to create Word object with words and images
      * @param defaultTranslation
      * @param miwokTranslation
      * @param imageResourceId
@@ -45,11 +55,18 @@ public class Word {
     }
 
     /**
-     * Get the image resource Id
+     * Get the Image Resource Id
      * @return
      */
     public int getImageResourceId() {
         return mImageResourceId;
+    }
+
+    /**
+     * Returns whether or not there is an image for this word.
+     */
+    public boolean hasImage() {
+        return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 
     @Override
