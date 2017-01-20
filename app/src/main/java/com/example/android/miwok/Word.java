@@ -11,6 +11,9 @@ public class Word {
     /** Default translation for the word */
     private String mDefaultTranslation;
 
+    /** Audio resource ID for the word */
+    private int mAudioResourceId;
+
     /** Image resource ID for the word */
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
@@ -22,10 +25,12 @@ public class Word {
      * Constructor to create Word object with words only
      * @param defaultTranslation
      * @param miwokTranslation
+     * @param audioResourceId
      */
-    public Word(String defaultTranslation, String miwokTranslation) {
+    public Word(String defaultTranslation, String miwokTranslation, int audioResourceId) {
         mMiwokTranslation = miwokTranslation;
         mDefaultTranslation = defaultTranslation;
+        mAudioResourceId = audioResourceId;
     }
 
     /**
@@ -34,10 +39,11 @@ public class Word {
      * @param miwokTranslation
      * @param imageResourceId
      */
-    public Word(String defaultTranslation, String miwokTranslation, int imageResourceId) {
+    public Word(String defaultTranslation, String miwokTranslation, int imageResourceId, int audioResourceId) {
         mMiwokTranslation = miwokTranslation;
         mDefaultTranslation = defaultTranslation;
         mImageResourceId = imageResourceId;
+        mAudioResourceId = audioResourceId;
     }
 
     /**
@@ -67,6 +73,13 @@ public class Word {
      */
     public boolean hasImage() {
         return mImageResourceId != NO_IMAGE_PROVIDED;
+    }
+
+    /**
+     * Return the audio resource ID of the word.
+     */
+    public int getAudioResourceId() {
+        return mAudioResourceId;
     }
 
     @Override
